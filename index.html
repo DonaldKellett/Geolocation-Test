@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple Geolocation Test</title>
+	</head>
+	<body>
+		<h2>HTML5 Geolocation Test</h2>
+		<p>If this turns out to be successful (i.e. if I learn how to use Geolocation properly), I might just use it on next year's JA Company website (provided I join JA next school year and become IT Director).</p>
+		<div id="maps"></div>
+		<script src="geolocation.js"></script>
+		<noscript>
+			<!-- Fallback: If Javascript is disabled, only the location of Kellett School will be shown. -->
+			<h3>Kellett School</h3>
+			<p>Oops, it seems that you have Javascript disabled.  However, don't worry - here is a map showing the location of Kellett School:</p>
+			<img src="http://maps.googleapis.com/maps/api/staticmap?center=22.32476,114.206733&zoom=17&size=400x300&sensor=false" />
+			<p>Hope you found that useful!</p>
+		</noscript>	
+	</body>
+</html>
